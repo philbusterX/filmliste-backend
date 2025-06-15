@@ -1,7 +1,17 @@
 package filmliste_backend.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class Movie {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
     private int year;
     private String genre;
@@ -9,8 +19,10 @@ public class Movie {
     private boolean watched;
     private boolean favorite;
 
-    public Movie(Long id, String title, int year, String genre, double rating, boolean watched, boolean favorite) {
-        this.id = id;
+    public Movie() {
+    }
+
+    public Movie(String title, int year, String genre, double rating, boolean watched, boolean favorite) {
         this.title = title;
         this.year = year;
         this.genre = genre;
