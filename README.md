@@ -4,7 +4,7 @@ Dieses Projekt ist eine im Rahmen des Moduls "Webtechnologien" an der HTW Berlin
 
 **Live-Anwendung:** [https://filmliste-frontend.onrender.com](https://filmliste-frontend.onrender.com)
 
-**Backend-Repository:** [https://github.com/philbusterX/filmliste-backend](https://github.com/philbusterX/filmliste-backend)
+**Frontend-Repository:** [https://github.com/philbusterX/filmliste-frontend](https://github.com/philbusterX/filmliste-frontend)
 
 ---
 
