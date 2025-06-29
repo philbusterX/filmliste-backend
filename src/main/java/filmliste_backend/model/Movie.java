@@ -11,24 +11,25 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
     private int year;
     private String genre;
     private double rating;
     private boolean watched;
     private boolean favorite;
+    private String coverUrl;
 
     public Movie() {
     }
 
-    public Movie(String title, int year, String genre, double rating, boolean watched, boolean favorite) {
+    public Movie(String title, int year, String genre, double rating, boolean watched, boolean favorite, String coverUrl) {
         this.title = title;
         this.year = year;
         this.genre = genre;
         this.rating = rating;
         this.watched = watched;
         this.favorite = favorite;
+        this.coverUrl = coverUrl;
     }
 
     public Long getId() { return id; }
@@ -45,4 +46,6 @@ public class Movie {
     public void setWatched(boolean watched) { this.watched = watched; }
     public boolean isFavorite() { return favorite; }
     public void setFavorite(boolean favorite) { this.favorite = favorite; }
+    public String getCoverUrl() { return coverUrl; }
+    public void setCoverUrl(String coverUrl) { this.coverUrl = coverUrl; }
 }
