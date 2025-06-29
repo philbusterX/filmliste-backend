@@ -1,4 +1,4 @@
-# Filmekatalog (CineShelf) - Frontend
+# Filmekatalog - Frontend
 
 Dieses Projekt ist eine im Rahmen des Moduls "Webtechnologien" an der HTW Berlin erstellte Full-Stack-Webanwendung zur Verwaltung einer persönlichen Filmsammlung.
 
@@ -36,7 +36,7 @@ Der **Filmekatalog** ist eine moderne Webanwendung zur Verwaltung persönlicher 
 * **Java 21**
 * **Spring Data JPA / Hibernate**
 * **PostgreSQL** als Datenbank
-* **Mockito & JUnit 5** für Unit- und Web-Layer-Tests
+* **Mockito & JUnit 5** für Unit-Tests
 
 **Deployment & CI/CD:**
 * **Render.com** für das Hosting von Frontend, Backend und Datenbank
