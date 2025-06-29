@@ -1,4 +1,4 @@
-# Filmekatalog - Frontend
+# Filmekatalog - Backend
 
 Dieses Projekt ist eine im Rahmen des Moduls "Webtechnologien" an der HTW Berlin erstellte Full-Stack-Webanwendung zur Verwaltung einer persönlichen Filmsammlung.
 
