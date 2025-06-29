@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="filmliste_backend.service.MovieServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-29T20:47:21.434Z" hostname="Mac" time="0.404">
+<testsuite name="filmliste_backend.service.MovieServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-29T21:44:07.857Z" hostname="Mac" time="0.415">
   <properties/>
-  <testcase name="testFindAllMovies()" classname="filmliste_backend.service.MovieServiceTest" time="0.404"/>
+  <testcase name="testFindAllMovies()" classname="filmliste_backend.service.MovieServiceTest" time="0.415"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (/Users/phil/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.5/58f9507f5f28d1d3e7adfb4ec2fe37c29d332c9b/byte-buddy-agent-1.17.5.jar)
